@@ -1,0 +1,47 @@
+[
+  {
+    "type": "function",
+    "name": "verify",
+    "inputs": [
+      {
+        "name": "digest",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "sig",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "mpk",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "error",
+    "name": "HashToCurveExhausted",
+    "inputs": []
+  },
+  {
+    "type": "error",
+    "name": "PrecompileFailed",
+    "inputs": [
+      {
+        "name": "precompile",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

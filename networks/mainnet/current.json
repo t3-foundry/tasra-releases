@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "network": "mainnet",
+  "chainId": 43114,
+  "status": "planned",
+  "manifest": null,
+  "sha256": null,
+  "reason": "No mainnet deployment exists. Avalanche C-Chain is the mainnet target (ADR-0056); a software release does not activate a network."
+}

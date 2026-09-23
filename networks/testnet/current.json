@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "network": "testnet",
+  "chainId": 43113,
+  "status": "active",
+  "manifest": "deployments/tasra-fuji-v1.json",
+  "sha256": "1afbe07fd3aaa7293189a439c328919a3620860135722682243b2aabe5572e21",
+  "reason": null
+}
